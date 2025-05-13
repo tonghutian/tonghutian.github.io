@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Epiphanies – Westtown School Literary & Art Magazine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="index.html" class="back-button">Back to Main Page</a>
+    <section>
+        <h2>Staff & Acknowledgements</h2>
+        <h3>Editor-in-Chief</h3>
+        <p>July Wen ‘25</p>
+    
+        <h3>Editors</h3>
+<ul>
+  <li>Jerry Rao ’27</li>
+  <li>Lucy Li ’26</li>
+  <li>Tiantong Hu ’26</li>
+  <li>Angela Wang ’26</li>
+  <li>Melissa Wang ’26</li>
+</ul>
+
+<h3>Faculty Advisor</h3>
+<p>T. Beth Cope</p>
+
+<h3>Cover Artist</h3>
+<p>July Wen ’25</p>
+
+<h3>Special Thanks</h3>
+<p>Special thanks to the English Department for helping with gathering submissions!</p>
+      </section>
+    
+  <div id="epiphanies">
+    <a href="Epiphanies 2025.pdf">View Epiphanies 2025 (PDF)</a>
+
+    <h2>Epiphanies 2024: Literary Works</h2>
+
+    <div class="work-list" id="original-lit">
+        <button class="toggle-btn">The Start – Wynne Herrera ’28</button>
+        <div class="toggle-content">
+          I thought it would be bigger than this,<br>
+          bigger than falling leaves<br>
+          and tomatoes left on the vine to decay.<br><br>
+          Maybe there would be a gust of wind to blow the fire into our laps,<br>
+          a man with a hook to pull down the stars.<br><br>
+          Instead it’s just me in my bed,<br>
+          waiting until the last second to sit up.<br><br>
+          I thought it would be bigger than this,<br>
+          bigger than waking up to a fog that feels like it is rolling into my lungs<br>
+          and two pills in a sea of acid.<br><br>
+          Each year it gets smaller<br>
+          and bigger at the same time.<br><br>
+          It swells until it explodes,<br>
+          grows until it presses the breath out of my throat.<br><br>
+          I hold that decaying tomato and think how much like it I am.<br>
+          “Poor you,”<br>
+          is all I can whisper.<br>
+          It probably thought the end would be bigger than this.
+        </div>    
+        <button class="toggle-btn">Home – Jamila Burgos ’27</button>
+        <div class="toggle-content">
+          When the night whispers <em>your</em> name<br>
+          i extended into darkness,<br>
+          becoming one with light, or the absence.<br>
+          eyes, straying,<br>
+          hazy streams of your scent<br>
+          floating ever so swiftly by.<br><br>
+          When the night whispers <em>your</em> name,<br>
+          i shakily groan,<br>
+          my body aching to collect what i owe,<br>
+          so that the world would prize me with <em>your</em> melodic voice<br>
+          cascading through my mind,<br><br>
+          When the night whispers <em>your</em> name,<br>
+          i place my foot one after the other<br>
+          as silently as a cat,<br>
+          along stairs molded from shattered stars,<br>
+          my body floating into the stars<br><br>
+          so I may lie beside <em>you</em><br>
+          simply, to feel <em>your</em> heartbeat next to mine<br><br>
+          <em>Home.</em>
+        </div>  
+        <button class="toggle-btn">Sappho – Tiantong Hu ’26</button>
+        <div class="toggle-content">
+          The ants quietly carry my body,<br>
+          to their home<br>
+          to her queen.<br>
+          And I, lying under this beautiful dark roof named the sky feel.<br><br>
+          Unfortunately, this is not my first time to feel.<br>
+          The worker ants are so diligent,<br>
+          as if her queen is the fairest one in the queendom of all ants<br>
+          as if in Sappho’s garden<br>
+          A pair of lips plucks another pair of lips.<br>
+          Yet ants have no lips<br>
+          and I have no heart.<br><br>
+          The biting wind is an eternal sorrow<br>
+          clamping shut my eyes,<br>
+          A soft breeze, gentle drizzle—<br>
+          like looming breasts under the sweater of a Southern woman<br><br>
+          Women will no longer love this dead body of mine<br>
+          But the ants will.<br>
+          Food was my wife who lived with all my heart<br>
+          Now, perhaps food shall be the female muse for the ants.<br><br>
+          Sons of the forest<br>
+          sons of the earth<br>
+          are the grooms who bloom for you<br>
+          Sons of the dust<br>
+          sons of the rivers<br>
+          are the brides who roll upon you<br>
+          Sappho Sappho<br>
+          kiss<br>
+          Me!
+        </div>
+      
+    </div>
+
+
+    <h2>Epiphanies 2025: Artworks</h2>
+
+    <div class="work-list" id="artworks">
+      <button class="toggle-btn" onclick="toggleContent('sofia-burgos')">Sofia Burgos ’25</button>
+      <div class="toggle-content" id="sofia-burgos"></div>
+
+      <button class="toggle-btn" onclick="toggleContent('sofia-duran')">Sofia Duran ’24</button>
+      <div class="toggle-content" id="sofia-duran"></div>
+
+      <button class="toggle-btn" onclick="toggleContent('summer-guo')">Summer Guo ’24</button>
+      <div class="toggle-content" id="summer-guo"></div>
+
+      <button class="toggle-btn" onclick="toggleContent('july-wen')">July Wen ’25</button>
+      <div class="toggle-content" id="july-wen"></div>
+
+      <button class="toggle-btn" onclick="toggleContent('tim-gatto')">Tim Gatto ’24</button>
+      <div class="toggle-content" id="tim-gatto"></div>
+
+      <button class="toggle-btn" onclick="toggleContent('chase-wiggers')">Chase Wiggers ’27</button>
+      <div class="toggle-content" id="chase-wiggers"></div>
+
+      <button class="toggle-btn" onclick="toggleContent('camille-bley')">Camille Bley ’26</button>
+      <div class="toggle-content" id="camille-bley"></div>
+
+      <button class="toggle-btn" onclick="toggleContent('steven-zhao')">Steven Zhao ’25</button>
+      <div class="toggle-content" id="steven-zhao"></div>
+
+      <button class="toggle-btn" onclick="toggleContent('ly-nguyen')">Ly Nguyen ’24</button>
+      <div class="toggle-content" id="ly-nguyen"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
