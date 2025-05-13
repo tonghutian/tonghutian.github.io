@@ -66,3 +66,19 @@ section {
 .work-list {
   margin-top: 20px;
 }
+
+#collapse-all, #expand-all {
+  background-color: #d3e8f6;
+  color: #2a4d69;
+  border: none;
+  padding: 10px 15px;
+  margin: 8px 8px 8px 0;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 6px;
+}
+
+#collapse-all:hover, #expand-all:hover {
+  background-color: #b8d8ef;
+}
