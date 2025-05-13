@@ -5,6 +5,9 @@ body {
   line-height: 1.6;
   padding: 20px;
   margin: 0;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
 }
 
 button {
@@ -81,4 +84,11 @@ section {
 
 #collapse-all:hover, #expand-all:hover {
   background-color: #b8d8ef;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: auto; 
+  padding: 10px 0;
 }
