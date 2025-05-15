@@ -122,3 +122,36 @@ img:hover {
 #table-of-contents a:visited {
   color: #5a7892;
 }
+
+ul a {
+  color: #2a4d69;
+  text-decoration: none;
+}
+
+ul a:hover {
+  color: #1b3b54;
+  text-decoration: underline;
+}
+
+ul a:visited {
+  color: #5a7892;
+}
+
+.floating-toc-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4d88a8;
+  color: #f2f8fc;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  z-index: 1000;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.floating-toc-button:hover {
+  background-color: #3a6c8b;
+}
