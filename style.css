@@ -155,3 +155,17 @@ ul a:visited {
 .floating-toc-button:hover {
   background-color: #3a6c8b;
 }
+
+.back-button a {
+  color: #2a4d69;
+  text-decoration: none;
+}
+
+.back-button a:hover {
+  color: #1b3b54;
+  text-decoration: underline;
+}
+
+.back-button a:visited {
+  color: #5a7892;
+}
