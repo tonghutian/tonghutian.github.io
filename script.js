@@ -11,6 +11,8 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function() {
-    $('.navbar').hide().slideDown(1000); // 1000ms = 1 second
+$("#button").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#elementtoScrollToID").offset().top
+    }, 2000);
 });
