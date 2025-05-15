@@ -10,3 +10,7 @@ $(document).ready(function () {
       $(".toggle-content").show();
   });
 });
+
+$(document).ready(function() {
+    $('.navbar').hide().slideDown(1000); // 1000ms = 1 second
+});
