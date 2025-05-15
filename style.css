@@ -1,18 +1,19 @@
 body {
   font-family: 'EB Garamond', serif;
   background-color: #f2f8fc;
-  color: #2c3e50;
+  color: #34495e;  
   line-height: 1.8;
   padding: 20px;
   margin: 0;
   display: flex;
   flex-direction: column;
-  font-size: 1.10em;
+  font-size: 20px;
 }
 
 ul {
-    font-size: 1.10em;
+  font-size: 20px;
 }
+
 button {
   font-family: 'EB Garamond', serif;
 }
@@ -106,4 +107,18 @@ img {
 
 img:hover {
     transform: scale(1.1);
+}
+
+#table-of-contents a {
+  color: #2a4d69;
+  text-decoration: none;
+}
+
+#table-of-contents a:hover {
+  color: #1b3b54;
+  text-decoration: underline;
+}
+
+#table-of-contents a:visited {
+  color: #5a7892;
 }
