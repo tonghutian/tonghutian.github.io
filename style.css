@@ -169,7 +169,7 @@ ul a:visited {
 
 .back-button:hover {
   background-color: #3a6c8b;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .back-button:visited {
